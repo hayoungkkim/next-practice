@@ -2,7 +2,7 @@ export default function Home({ posts }) {
 	console.log(posts);
 	return (
 		<div>
-			<h1>Welcome to Ha-young's Blog</h1>
+			<h1>Welcome to Ha-young&apos;s Blog</h1>
 			<ul>
 				{posts.map((post) => (
 					<li key={post.id}>{post.title}</li>
